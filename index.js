@@ -133,5 +133,7 @@ buttonNewGame.addEventListener(`click`, () =>{
     dipsplayWinner.textContent = `Who Will Win?`;
     playing = true;
     whoPlays = true;
+    playerOne.textContent = `✔`;
+    playerTwo.textContent = ``;
     
 });
