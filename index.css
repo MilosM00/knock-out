@@ -86,9 +86,33 @@ p{
     margin-right: 10px;
 }
 
+.score-player1,
+.score-player2,
+.dice-score-player1,
+.dice-score-player2{
+    font-family: 'Dela Gothic One', cursive;
+}
 
-@media (max-width: 572px) {
+.player-one,
+.player-two{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 724px) {
     .overlay1{
         margin-right: 50px;
+    }
+}
+
+@media (max-width: 474px) {
+    p{
+        font-size: 17px;
+    }
+
+    .player-one,
+    .player-two{
+        font-size: 25px;
     }
 }
